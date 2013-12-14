@@ -1,0 +1,149 @@
+#wrapper {
+	background-color: #E0FFFF;
+    width:300px;
+    height:300px;
+    margin:auto;
+    margin-top:50px;
+    -webkit-border-radius:10%;
+    position:relative;
+}
+
+#cara {
+	/*background-color: #fcd9ba;*/
+	width: 70px;
+	height: 200px;
+	position: absolute;
+	top: 70px;
+	left: 115px;
+}
+
+#cara_dos {
+	background-color: #fcd9ba;
+	width: 70px;
+	height: 200px;
+	position: absolute;
+	top: 70px;
+	left: 115px;
+	border: 2px solid #e1ad6f;
+	-webkit-transform: perspective(30) rotateX(-2deg)
+}
+
+#pelo {
+	background-color: #22ac5a;
+	width: 90px;
+	height: 30px;
+	position: absolute;
+	top: -30px;
+	left: -10px;
+}
+
+.ojos {
+	background-color: #ffffff;
+	-webkit-border-radius:50%;
+	position: absolute;
+}
+
+.ojo_izquierdo {
+	width: 40px;
+	height: 50px;
+	top: 20px;
+	left: -15px;
+	border: 2px solid #000; 
+}
+
+.ojo_derecho {
+	width: 35px;
+	height: 40px;
+	top: 30px;
+	left: 15px;
+	border: 2px solid #000; 
+}
+
+.iris {
+	background-color: #000;
+	width: 10px;
+	height: 10px;
+	-webkit-border-radius:50%;
+	position: absolute;
+}
+
+.iris_izquierda {
+	top: 45px;
+	left: 0px;
+}
+
+.iris_derecha {
+	top: 45px;
+	left: 25px;
+}
+
+.iris:after {
+	content: "";
+	background-color: #ffffff;
+	width: 5px;
+	height: 5px;
+	-webkit-border-radius:50%;
+	position: absolute;
+	top: 2px;
+	left: 4px;
+}
+
+#nariz {
+	background-color: #fcd9ba;
+	-webkit-border-radius:30%;
+	width: 60px;
+	height: 50px;
+	position: absolute;
+	top: 60px;
+	left: -37px;
+	border-top: 2px solid #e1ad6f;
+	border-left: 2px solid #e1ad6f;
+	border-bottom: 2px solid #e1ad6f;
+	/*border-bottom-left-radius: 20px 20px;
+	border-top-left-radius: 20px 20px;*/
+n}
+
+#boca {
+	background-color: #fcd9ba;
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	top: 150px;
+	left: -5px;
+	-webkit-transform: rotate(45deg);
+	border-left: 2px solid #e1ad6f;
+}
+
+#boca_help {
+	background-color: #E0FFFF;
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	top: 159px;
+	left: -12px;
+	border-right: 2px solid #e1ad6f;
+}
+
+#oreja {
+	background-color: #fcd9ba;
+	-webkit-border-radius:50%;
+	width: 25px;
+	height: 25px;
+	position: absolute;
+	top: 80px;
+	left: 60px;
+	border-top: 2px solid #e1ad6f;
+	border-right: 2px solid #e1ad6f;
+	border-bottom: 2px solid #e1ad6f;
+}
+
+#oreja:after {
+	content: "";
+	width: 15px;
+	height: 15px;
+	-webkit-border-radius:50%;
+	position: absolute;
+	top: 5px;
+	left: 2px;
+	border-right: 2px solid #e1ad6f;
+}
