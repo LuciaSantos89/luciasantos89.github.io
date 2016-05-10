@@ -1,0 +1,129 @@
+#wrapper {
+	background-color: #E0FFFF;
+    width:500px;
+    height:500px;
+    margin:auto;
+    margin-top:50px;
+    -webkit-border-radius:10%;
+    position:relative;
+}
+
+#triangule {
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-left: 180px solid transparent;
+	border-right: 180px solid transparent;
+	border-top: 410px solid #E18A0F;
+	top:80px;
+	left: 70px
+}
+
+#crust {
+	position: absolute;
+	width: 360px;
+	height: 50px;
+	top: 50px;
+	left: 70px;
+	background-color: #CE3409;
+	border-radius: 30px 30px 20px 20px; 
+}
+
+.eyebrows {
+	position: absolute;
+	width: 50px;
+	height: 10px;
+	border-top: 1px solid black;
+	top: 110px;
+	border-radius: 50%;
+	z-index: 1;
+}
+
+#l-eyebr {
+	left: 160px;
+}
+
+#r-eyebr {
+	right: 160px;
+}
+
+.glasses {
+	position: absolute;
+	width: 170px;
+	height: 90px;
+	background-color: black;
+	border-radius: 10px 10px 80px 80px;
+	top: 120px;
+	z-index: 1;
+}
+
+#l-glass{
+	left: 90px
+}
+
+#r-glass {
+	right: 90px;
+}
+
+#smile {
+	position: absolute;
+	width: 50px;
+	height: 10px;
+	border-bottom: 2px solid black;
+	top: 240px;
+	left: 215px;
+	border-radius: 50%;
+}
+
+.peperoni {
+	position: absolute;
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	background-color: #A00545;
+}
+
+#p-one{
+	top: 100px;
+	left: 70px;
+}
+
+#erase-p-one{
+	position: absolute;
+	width: 120px;
+	height: 60px;
+	background-color: #E0FFFF;
+	top: 150px;
+	left: 20px;
+	transform: rotate(67deg);
+}
+
+#p-two {
+	top: 300px;
+	left: 120px;
+}
+
+#erase-p-two{
+	position: absolute;
+	width: 140px;
+	height: 80px;
+	background-color: #E0FFFF;
+	top: 330px;
+	left: 83px;
+	transform: rotate(66deg);
+}
+
+#p-three {
+	top: 250px;
+	left: 250px;
+}
+
+#erase-p-three{
+	position: absolute;
+	width: 140px;
+	height: 80px;
+	background-color: #E0FFFF;
+	top: 300px;
+	left: 290px;
+	transform: rotate(-66deg);
+}
